@@ -1,0 +1,109 @@
+
+body {
+    background-image: url("../images/light-grey-terrazzo.png");
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    transition: background 0.5s ease;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+}
+.quote-container {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 600px;
+    margin: 150px auto;
+    margin-bottom: 30px;
+    overflow: auto;
+    box-shadow: 0 10px 6px -6px #555;
+}
+
+.quote-text {
+    position: relative;
+}
+
+blockquote {
+    font-family: 'Raleway', cursive;
+    font-size: 135%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 140%;
+    width: 80%;
+}
+
+.icon {
+    position: absolute;
+    top: -4px;
+    left: 30px;
+}
+
+i.left-quote {
+    padding-right: 7px;
+    font-size: 135%;
+    color: #333;
+    line-height: 140%;
+}
+
+span {
+    display: block;
+    font-size: 90%;
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons {
+    padding: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-twitter {
+    background-color: #333;
+    font-size: 130%;
+    padding: 4px 8px;
+    color: #fff;
+    margin-left: 25px;
+    border-radius: 3px;
+    vertical-align: middle;
+    transition: opacity 0.2s ease;
+}
+
+.btn-twitter:hover {
+    opacity: 0.8;
+}
+
+.btn-quote {
+    background-color: #333;
+    height: 35px;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: 370px;
+    padding: 0 10px;
+    transition: opacity 0.2s ease;
+}
+
+.btn-quote:hover {
+    opacity: 0.8;
+}
+
+footer {
+    color: #333 !important;
+    font-size: 70%;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+}
